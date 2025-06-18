@@ -1,3 +1,5 @@
+/* eslint-disable new-cap */
+
 'use strict';
 
 var ObjectID = require('../src/isomorphic-mongo-objectid.js');
@@ -55,5 +57,4 @@ describe('ObjectID', function () {
         expect(objectId.toString()).toEqual(oString);
         expect(objectId.toArray()).toEqual(oArray);
     });
-
 });
